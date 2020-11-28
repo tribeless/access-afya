@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+}
+
+.aside{
+    position:fixed;
+}
+
+.profileImage{
+    width:50px;
+    height:50px;
+    border-radius:100%;
+}
+
+.progressBar{
+    width:170px;
+    border-radius: 20px;
+}
