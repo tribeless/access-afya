@@ -1,11 +1,18 @@
-import React from "react";
+import React,{Fragment} from "react";
 import Header from "./Header";
-
+import Aside from "./Aside";
+import Heading from "./Heading";
 
 const Layout = ()=>{
 
     return (
-        <Header />
+        <Fragment>
+            <Header />
+            <Aside />
+            <main>
+            <Heading />
+            </main>
+        </Fragment>
     )
 }
 

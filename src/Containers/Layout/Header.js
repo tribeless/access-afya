@@ -15,6 +15,9 @@ const Header = ()=>{
             align="center"
             alignment="row"
             padding="1rem"
+            position="relative"
+            width="90vw"
+            left="7.7vw"
         >
 
             <AfyaSmallContainer
