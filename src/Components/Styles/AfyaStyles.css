@@ -16,3 +16,14 @@
     width:170px;
     border-radius: 20px;
 }
+
+.iconStyles{
+    margin:1.3rem;
+    color:#8492a0;
+    font-size: 1.5rem;
+
+}
+
+.iconStyles.active{
+    color:#2b1e88;
+}
