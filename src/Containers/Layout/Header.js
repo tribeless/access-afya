@@ -10,41 +10,18 @@ import "../../Components/Styles/AfyaStyles.css";
 const Header = ()=>{
 
     return (
-        <AfyaContainer
-            justify="space-between"
-            align="center"
-            alignment="row"
-            padding="1rem"
-            position="relative"
-            width="90vw"
-            left="7.7vw"
-        >
+        <AfyaContainer divClass="main-container-one">
 
-            <AfyaSmallContainer
-                justify="center"
-                align="center"
-                alignment="row"
-            >
+            <AfyaSmallContainer divClass="small-container-one">
                 <AfyaTextHolder 
                     text="Add Assessment"
-                    size=".85rem"
+                    divClass="main-text-one"
                 />
 
                 <MdAdd />
             </AfyaSmallContainer>
-        <AfyaSmallContainer
-            justify="space-evenly"
-            align="center"
-            alignment="row" 
-            outline="none"
-        >
-            <AfyaSmallContainer
-                justify="center"
-                align="flex-start"
-                alignment="column"
-                outline="none"
-                margin="0 2rem 0 0"
-            >
+        <AfyaSmallContainer divClass="small-container-three">
+            <AfyaSmallContainer divClass="small-container-two">
                 <Progress 
                     percent={40} 
                     status="active" 
@@ -57,26 +34,20 @@ const Header = ()=>{
                 /> 
                 <AfyaTextHolder 
                     text="24k/24k patients seen"
-                    size=".7rem"
-                    color="#b2bec3"
-                    margin=".3rem 0 0 0"
+                    divClass="main-text-three"
                 />
             </AfyaSmallContainer>
 
             <AfyaSmallContainer
-                justify="center"
-                align="flex-start"
-                alignment="column"
-                outline="none"
+                divClass="small-container-four"
             >
                  <AfyaTextHolder 
                     text="Sandra Mamai"
-                    size=".85rem"
+                    divClass="main-text-one"
                 />
                  <AfyaTextHolder 
                     text="smamai@accessafya.com"
-                    size=".7rem"
-                    color="#8395a7"
+                    divClass="main-text-two"
                 />
             </AfyaSmallContainer>
                 <img src={mamai} alt="mamai" className="profileImage" />

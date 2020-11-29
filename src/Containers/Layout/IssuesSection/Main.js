@@ -7,17 +7,7 @@ const Main = ()=>{
 
     return (
 
-        <AfyaContainer
-            alignment="column"
-            justify="flex-start"
-            align="flex-start"
-            color="#dfe6e9"
-            width="50vw"
-            height="100vh"
-            position="relative"
-            left="550px"
-            top="72px"
-        >
+        <AfyaContainer divClass="main-sec">
             <Issues />
             <Monitoring />
         </AfyaContainer>

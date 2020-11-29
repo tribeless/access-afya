@@ -8,50 +8,22 @@ import "../../../Components/Styles/AfyaStyles.css";
 const Issues = () =>{
 
     return (
-        <AfyaContainer
-            alignment="column"
-            align="flex-start"
-            justify="space-evenly"
-            wrap="wrap"
-            padding="1rem"
-        >
+        <AfyaContainer divClass="issues-main-container">
         <AfyaTextHolder
             text="KEY ISSUES"
-            size=".7rem"
-            color="#8492a0"
+            divClass="issues-main-text"
         />
-        <AfyaSmallContainer
-            align="flex-start"
-            justify="space-between"
-            alignment="row"
-            outline="none"
-            padding="0"
-            wrap="wrap"
-        >
+        <AfyaSmallContainer divClass="issues_sub-container">
             {/* these are the small boxes beginning */}
-        <AfyaSmallContainer
-            alignment="row"
-            align="flex-start"
-            justify="space-evenly"
-            radius="5px"
-            margin="20px 0 0 0 "
-        >
-            <AfyaSmallContainer
-                alignment="column"
-                align="flex-start"
-                justify="center"
-                outline="none"
-                padding="0"
-            >
+        <AfyaSmallContainer divClass="issues_sub-container-two">
+            <AfyaSmallContainer divClass="issues_sub-container-three">
                 <AfyaTextHolder
                     text="Wrong Prescription"
-                    size=".7rem"
-                    color="#000000"
+                    divClass="issues-text-one"
                 />
                 <AfyaTextHolder
                     text="Kosovo"
-                    size=".6rem"
-                    color="#8492a0"
+                    divClass="issues-text-two"
                 />
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
@@ -60,30 +32,15 @@ const Issues = () =>{
 
 
                         {/* these are the small boxes beginning */}
-        <AfyaSmallContainer
-            alignment="row"
-            align="flex-start"
-            justify="space-evenly"
-            radius="5px"
-            margin="20px 0 0 0 "
-            outline="thin solid #3426a4"
-        >
-            <AfyaSmallContainer
-                alignment="column"
-                align="flex-start"
-                justify="center"
-                outline="none"
-                padding="0"
-            >
+        <AfyaSmallContainer divClass="issues_sub-container-two active">
+            <AfyaSmallContainer divClass="issues_sub-container-three" >
                 <AfyaTextHolder
                     text="Opened Late"
-                    size=".7rem"
-                    color="#000000"
+                    divClass="issues-text-one"
                 />
                 <AfyaTextHolder
                     text="Kiambiu"
-                    size=".6rem"
-                    color="#8492a0"
+                    divClass="issues-text-two"
                 />
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
@@ -92,29 +49,15 @@ const Issues = () =>{
 
 
                         {/* these are the small boxes beginning */}
-        <AfyaSmallContainer
-            alignment="row"
-            align="flex-start"
-            justify="space-evenly"
-            radius="5px"
-            margin="20px 0 0 0 "
-        >
-            <AfyaSmallContainer
-                alignment="column"
-                align="flex-start"
-                justify="center"
-                outline="none"
-                padding="0"
-            >
+        <AfyaSmallContainer divClass="issues_sub-container-two" >
+            < AfyaSmallContainer divClass = "issues_sub-container-three">
                 <AfyaTextHolder
                     text="Bad Receipts"
-                    size=".7rem"
-                    color="#000000"
+                    divClass="issues-text-one"
                 />
                 <AfyaTextHolder
                     text="New York"
-                    size=".6rem"
-                    color="#8492a0"
+                    divClass="issues-text-two"
                 />
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
@@ -123,29 +66,15 @@ const Issues = () =>{
 
 
                         {/* these are the small boxes beginning */}
-        <AfyaSmallContainer
-            alignment="row"
-            align="flex-start"
-            justify="space-evenly"
-            radius="5px"
-            margin="20px 0 0 0 "
-        >
-            <AfyaSmallContainer
-                alignment="column"
-                align="flex-start"
-                justify="center"
-                outline="none"
-                padding="0"
-            >
+        <AfyaSmallContainer divClass="issues_sub-container-two">
+            <AfyaSmallContainer divClass="issues_sub-container-three">
                 <AfyaTextHolder
                     text="Late Check in"
-                    size=".7rem"
-                    color="#000000"
+                    divClass="issues-text-one"
                 />
                 <AfyaTextHolder
                     text="Mathare"
-                    size=".6rem"
-                    color="#8492a0"
+                    divClass="issues-text-two"
                 />
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
@@ -154,29 +83,15 @@ const Issues = () =>{
 
 
                         {/* these are the small boxes beginning */}
-        <AfyaSmallContainer
-            alignment="row"
-            align="flex-start"
-            justify="space-evenly"
-            radius="5px"
-            margin="20px 0 0 0 "
-        >
-            <AfyaSmallContainer
-                alignment="column"
-                align="flex-start"
-                justify="center"
-                outline="none"
-                padding="0"
-            >
+        <AfyaSmallContainer divClass="issues_sub-container-two">
+            <AfyaSmallContainer divClass="issues_sub-container-three">
                 <AfyaTextHolder
                     text="Delay in Lab"
-                    size=".7rem"
-                    color="#000000"
+                    divClass="issues-text-one"
                 />
                 <AfyaTextHolder
                     text="Kiambiu"
-                    size=".6rem"
-                    color="#8492a0"
+                    divClass="issues-text-two"
                 />
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
@@ -185,29 +100,15 @@ const Issues = () =>{
 
 
                         {/* these are the small boxes beginning */}
-        <AfyaSmallContainer
-            alignment="row"
-            align="flex-start"
-            justify="space-evenly"
-            radius="5px"
-            margin="20px 0 0 0 "
-        >
-            <AfyaSmallContainer
-                alignment="column"
-                align="flex-start"
-                justify="center"
-                outline="none"
-                padding="0"
-            >
+        <AfyaSmallContainer divClass="issues_sub-container-two">
+            <AfyaSmallContainer divClass="issues_sub-container-three">
                 <AfyaTextHolder
                     text="Careless waste dis... "
-                    size=".7rem"
-                    color="#000000"
+                    divClass="issues-text-one"
                 />
                 <AfyaTextHolder
                     text="Kiambiu"
-                    size=".6rem"
-                    color="#8492a0"
+                    divClass="issues-text-two"
                 />
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />

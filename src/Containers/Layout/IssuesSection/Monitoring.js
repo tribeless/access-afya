@@ -8,94 +8,45 @@ import "../../../Components/Styles/AfyaStyles.css";
 const Monitoring = ()=>{
 
     return (
-        <AfyaContainer
-            align="flex-start"
-            justify="space-evenly"
-            alignment="column"
-            padding="1rem"
-            margin="20px 0 0 0"
-            width="651px"
-        >
+        <AfyaContainer divClass="main-mon-container">
             <AfyaTextHolder
                 text="MONITORING PERIOD"
-                size=".7rem"
-                color="#8492a0"
+                divClass="mon-main-text"
             />
-            <AfyaSmallContainer
-                align="flex-start"
-                justify="space-between"
-                alignment="row"
-                outline="none"
-                margin="20px 0 0 0 "
-                padding="0"
-            >
-                <AfyaSmallContainer
-                    align="center"
-                    justify="space-between"
-                    alignment="row"
-                    margin="0 20px 0 0"
-                >
+            <AfyaSmallContainer divClass="mon-sub-container">
+                <AfyaSmallContainer divClass="mon-sub-one">
                     {/* begin individual */}
-                    <AfyaSmallContainer
-                        outline="none"
-                        align="center"
-                        justify="center"
-                         margin="0 10px 0 0"
-                    >
+                    <AfyaSmallContainer divClass="mon-sub-two">
                          <AfyaTextHolder
                             text="Day"
-                            size=".7rem"
-                            color="#8492a0"
+                            divClass="mon-text"
                         />
                     </AfyaSmallContainer>
 
-                    <AfyaSmallContainer
-                        outline="none"
-                        align="center"
-                        justify="center"
-                         margin="0 10px 0 0"
-                    >
+                    <AfyaSmallContainer divClass="mon-sub-two">
                          <AfyaTextHolder
                             text="Week"
-                            size=".7rem"
-                            color="#8492a0"
+                            divClass="mon-text"
                         />
                     </AfyaSmallContainer>
 
-                    <AfyaSmallContainer
-                        outline="thin solid #3426a4"
-                        align="center"
-                        justify="center"
-                        margin="0 10px 0 0"
-                    >
+                    <AfyaSmallContainer divClass="mon-sub-two active">
                          <AfyaTextHolder
                             text="Month"
-                            size=".7rem"
-                            color="#8492a0"
+                            divClass="mon-text"
                         />
                     </AfyaSmallContainer>
 
-                    <AfyaSmallContainer
-                        outline="none"
-                        align="center"
-                        justify="center"
-                        margin="0 10px 0 0"
-                    >
+                    <AfyaSmallContainer divClass="mon-sub-two">
                          <AfyaTextHolder
                             text="Year"
-                            size=".7rem"
-                            color="#8492a0"
+                            divClass="mon-text"
                         />
                     </AfyaSmallContainer>
                 </AfyaSmallContainer>
 
-                <AfyaSmallContainer
-                    align="center"
-                    justify="space-between"
-                    alignment="row"
-                    padding="1rem"
-                >
-                    <AfyaTextHolder text="10 Dec 2019-10 Jan 2020" color="#3426a4" size=".7rem" />
+                <AfyaSmallContainer divClass="mon-bottom">
+                    <AfyaTextHolder text="10 Dec 2019-10 Jan 2020" divClass="mon-bottom-text" />
                 </AfyaSmallContainer>
             </AfyaSmallContainer>
         </AfyaContainer>
