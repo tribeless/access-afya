@@ -15,7 +15,8 @@ const Aside = ()=>{
             height="100vh"
             alignment="column"
             width="40px"
-            margin="-7.7rem 0 0 0"
+            margin="0"
+            position="fixed"
         >
             <AfyaSmallContainer
                 align="center"

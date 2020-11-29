@@ -27,3 +27,12 @@
 .iconStyles.active{
     color:#2b1e88;
 }
+
+.visitsIcon{
+    color:#8492a0;
+    font-size:1.5rem;
+}
+
+.visitsIcon.active {
+    color:#ffffff;
+}

@@ -7,7 +7,7 @@ const AfyaTextHolder = ({
         text,
         color,
         size,
-        top
+        margin
     }) => {
 
     const {
@@ -18,7 +18,7 @@ const AfyaTextHolder = ({
       const styles={
             color:color || "#000000",
             fontSize: size || "1.625rem",
-            marginTop:top || "0"
+            margin:margin || "0"
       }
         if(title){
               return <Title className="fontStyle" level={2} style={styles}>{title}</Title>

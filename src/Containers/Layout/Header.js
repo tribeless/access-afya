@@ -43,7 +43,7 @@ const Header = ()=>{
                 align="flex-start"
                 alignment="column"
                 outline="none"
-                margin="2rem"
+                margin="0 2rem 0 0"
             >
                 <Progress 
                     percent={40} 
@@ -59,7 +59,7 @@ const Header = ()=>{
                     text="24k/24k patients seen"
                     size=".7rem"
                     color="#b2bec3"
-                    top=".3rem"
+                    margin=".3rem 0 0 0"
                 />
             </AfyaSmallContainer>
 
@@ -79,10 +79,8 @@ const Header = ()=>{
                     color="#8395a7"
                 />
             </AfyaSmallContainer>
-
-            {/* <AfyaSmallContainer outline="none"> */}
                 <img src={mamai} alt="mamai" className="profileImage" />
-            {/* </AfyaSmallContainer> */}
+
         </AfyaSmallContainer>
         </AfyaContainer>
     )

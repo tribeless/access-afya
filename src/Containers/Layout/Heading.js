@@ -9,11 +9,13 @@ const Heading = ()=>{
             align="center"
             justify="center"
             alignment="row"
-            position="relative"
-            left="10vw"
+            position="absolute"
+            left="11vw"
             width="135px"
-            margin="-90vh .7rem .7rem .7rem"
+            margin=".7rem"
+            top="100px"
             color="#dfe6e9"
+            padding="1rem"
         >
         <AfyaTextHolder 
             text="Analytics"

@@ -6,17 +6,26 @@ const AfyaSmallContainer = ({
         align,
         outline,
         alignment,
-        margin
+        margin,
+        color,
+        width,
+        padding,
+        radius,
+        wrap
     }) => {
 
     const styles = {
         display:"flex",
         flexDirection:alignment || "row",
         justifyContent:justify || "center",
+        flexWrap:wrap || "nowrap",
         alignItems:align || "center",
         outline:outline ||"thin solid #dfe6e9",
-        padding:".5rem",
-        marginRight: margin || "0"
+        padding:padding || ".5rem",
+        margin: margin || "0",
+        backgroundColor:color || "#ffffff",
+        width:width || "auto",
+        borderRadius: radius || "0"
     }
 
     return (
