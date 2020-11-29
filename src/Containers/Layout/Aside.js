@@ -9,20 +9,8 @@ import "../../Components/Styles/AfyaStyles.css";
 const Aside = ()=>{
 
     return (
-        <AfyaContainer
-            align="center"
-            justify="center"
-            height="100vh"
-            alignment="column"
-            width="40px"
-            margin="-7.7rem 0 0 0"
-        >
-            <AfyaSmallContainer
-                align="center"
-                justify="center"
-                alignment="column"
-                outline="none"
-            >
+        <AfyaContainer divClass="aside-main-container-one">
+            <AfyaSmallContainer divClass="aside-small-container">
                 <RiFolderLine className="iconStyles" />
                 <MdShowChart  className="iconStyles active" />
                 <RiMessage2Line className="iconStyles" />
