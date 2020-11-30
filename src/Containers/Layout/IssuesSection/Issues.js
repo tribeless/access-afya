@@ -14,7 +14,7 @@ const Issues = () =>{
             divClass="issues-main-text"
         />
         <AfyaSmallContainer divClass="issues_sub-container">
-            {/* these are the small boxes beginning */}
+
         <AfyaSmallContainer divClass="issues_sub-container-two">
             <AfyaSmallContainer divClass="issues_sub-container-three">
                 <AfyaTextHolder
@@ -28,10 +28,7 @@ const Issues = () =>{
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
         </AfyaSmallContainer>
-            {/* this is where one ends */}
 
-
-                        {/* these are the small boxes beginning */}
         <AfyaSmallContainer divClass="issues_sub-container-two active">
             <AfyaSmallContainer divClass="issues_sub-container-three" >
                 <AfyaTextHolder
@@ -45,10 +42,7 @@ const Issues = () =>{
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
         </AfyaSmallContainer>
-            {/* this is where one ends */}
 
-
-                        {/* these are the small boxes beginning */}
         <AfyaSmallContainer divClass="issues_sub-container-two" >
             < AfyaSmallContainer divClass = "issues_sub-container-three">
                 <AfyaTextHolder
@@ -62,10 +56,7 @@ const Issues = () =>{
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
         </AfyaSmallContainer>
-            {/* this is where one ends */}
 
-
-                        {/* these are the small boxes beginning */}
         <AfyaSmallContainer divClass="issues_sub-container-two">
             <AfyaSmallContainer divClass="issues_sub-container-three">
                 <AfyaTextHolder
@@ -79,10 +70,7 @@ const Issues = () =>{
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
         </AfyaSmallContainer>
-            {/* this is where one ends */}
 
-
-                        {/* these are the small boxes beginning */}
         <AfyaSmallContainer divClass="issues_sub-container-two">
             <AfyaSmallContainer divClass="issues_sub-container-three">
                 <AfyaTextHolder
@@ -96,10 +84,7 @@ const Issues = () =>{
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
         </AfyaSmallContainer>
-            {/* this is where one ends */}
 
-
-                        {/* these are the small boxes beginning */}
         <AfyaSmallContainer divClass="issues_sub-container-two">
             <AfyaSmallContainer divClass="issues_sub-container-three">
                 <AfyaTextHolder
@@ -113,7 +98,7 @@ const Issues = () =>{
             </AfyaSmallContainer>
             <MdMoreVert className="visitsIcon" />
         </AfyaSmallContainer>
-            {/* this is where one ends */}
+
         </AfyaSmallContainer>
         </AfyaContainer>
     )

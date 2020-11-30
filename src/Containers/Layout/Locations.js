@@ -41,7 +41,7 @@ const Locations = ()=>{
              <AfyaSmallContainer divClass="local-sub-one">
                 <AfyaSmallContainer divClass="local-sub-two">
                 <AfyaTextHolder text="38" divClass="local-main-text" />
-                <AfyaTextHolder text="Baba Dogo" divClass="local-main-text" />
+                <AfyaTextHolder text="Baba Dogo" divClass="local-sub-text" />
                 </AfyaSmallContainer>
                 <MdMoreVert className="visitsIcon" />
             </AfyaSmallContainer>
