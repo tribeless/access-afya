@@ -26,9 +26,9 @@ const Header = ()=>{
                     percent={40} 
                     status="active" 
                     showInfo={false} 
-                    strokeColor="#6c5ce7"
+                    strokeColor="#3426a4"
                     trailColor="#dfe6e9"
-                    strokeWidth={5}
+                    strokeWidth={4}
                     strokeLinecap="round"
                     className="progressBar"
                 /> 

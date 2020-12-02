@@ -5,6 +5,7 @@
     align-items: space-around;
     background-color: #dfe6e9;
     margin-top: 20px;
+    width:100%;
 }
 .sub-main{
     display: flex;
@@ -14,6 +15,10 @@
     background-color: #ffffff;
     padding:1rem;
     margin-right: .8rem;
+    border-radius: 3px;
+}
+.sub-main.third{
+    margin-right:0;
 }
 .main{
     display:flex;
@@ -34,7 +39,7 @@
     align-items: center;
 }
 .text-margin{
-    margin-top: .6rem;
+    /* margin-top: .6rem; */
 }
 .main-text{
     font-size:.7rem;
@@ -55,4 +60,18 @@
 }
 .sub-text-three.active{
     color:#ad2626;
+}
+.up {
+    color: #1bb41b
+}
+
+.down {
+    color: #ad2626;
+}
+.arrows{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: .6rem;
 }
