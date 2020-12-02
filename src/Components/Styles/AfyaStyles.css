@@ -6,6 +6,7 @@ body {
     overflow-x: hidden;
     font-family: 'Sen',
     sans-serif;
+    font-weight:500;
 }
 
 @font-face {
@@ -197,6 +198,7 @@ body {
     min-height:100vh;
     background-color: #ffffff;
     padding:1rem;
+    border-radius: 3px;
 }
 
 .local-sub-one{
@@ -206,10 +208,11 @@ body {
     justify-content:space-between;
     background-color:#ffffff;
     width:230px;
-    border-radius:5px;
+    border-radius:3px;
     margin-top:20px;
     padding:.5rem;
-    outline:thin solid #dfe6e9;
+    /* outline:thin solid #dfe6e9; */
+    border: 1pt solid #dfe6e9;
 }
 .local-sub-one.active {
     outline:none;
@@ -262,6 +265,7 @@ body {
     flex-wrap:wrap;
     padding:1rem;
     background-color:#ffffff;
+    border-radius:3px;
 }
 
 .issues_sub-container{
@@ -280,14 +284,15 @@ body {
     flex-direction:row;
     align-items:flex-start;
     justify-content:space-evenly;
-    border-radius:5px;
+    border-radius:3px;
     margin-top:20px;
     padding:.5rem;
-    outline:thin solid #dfe6e9;
+    /* outline:thin solid #dfe6e9; */
+    border: 1pt solid #dfe6e9;
     background-color:#ffffff;
 }
 .issues_sub-container-two.active{
-    outline:thin solid #3426a4;
+    border:1pt solid #3426a4;
 }
 .issues_sub-container-three{
     display:flex;
@@ -326,6 +331,7 @@ body {
      margin-top:20px;
      width:651px;
      background-color:#ffffff;
+     border-radius:3px;
 }
 
 .mon-sub-container{
@@ -345,7 +351,6 @@ body {
     justify-content:space-between;
     flex-direction:row;
     margin-right: 20px;
-    padding:.5rem;
     background-color: #ffffff;
     outline:thin solid #dfe6e9;
 }
@@ -357,10 +362,12 @@ body {
     justify-content:center;
     margin-right: 10px;
     background-color:#ffffff;
-    padding:.5rem;
+    padding:.9rem;
+    border-radius:3px;
 }
 .mon-sub-two.active{
-    outline:thin solid #3426a4;
+    /* outline:thin solid #3426a4; */
+    border:1pt solid #3426a4;
 }
 
 .mon-text{
@@ -371,15 +378,21 @@ body {
     font-size:.7rem;
     color:#8492a0;
 }
-
+.mon-icon{
+    margin-top: .1rem;
+    margin-right: .4rem;
+}
 .mon-bottom{
     display:flex;
-     align-items:center;
+     align-items:flex-start;
      justify-content:space-between;
      flex-direction:row;
      padding:1rem;
      background-color:#ffffff;
-     outline:thin solid #dfe6e9;
+     border: 1pt solid #dfe6e9;
+     border-radius:3px;
+     
+     /* outline:thin solid #dfe6e9; */
 }
 .mon-bottom-text{
     color:#3426a4;

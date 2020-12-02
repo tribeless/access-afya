@@ -2,6 +2,7 @@ import React from "react";
 import AfyaContainer from "../../../Components/FlexBoxes/AfyaContainer";
 import AfyaSmallContainer from "../../../Components/FlexBoxes/AfyaSmallContainer";
 import AfyaTextHolder from "../../../Components/TextBoxes/AfyaTextHolder";
+import icon from "../../../Assets/Images/icon.jpg";
 import "../../../Components/Styles/AfyaStyles.css";
 
 
@@ -46,6 +47,7 @@ const Monitoring = ()=>{
                 </AfyaSmallContainer>
 
                 <AfyaSmallContainer divClass="mon-bottom">
+                    <img src={icon} alt="date icon" className="mon-icon" />
                     <AfyaTextHolder text="10 Dec 2019-10 Jan 2020" divClass="mon-bottom-text" />
                 </AfyaSmallContainer>
             </AfyaSmallContainer>

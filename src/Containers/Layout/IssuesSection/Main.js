@@ -1,7 +1,9 @@
 import React from "react";
 import AfyaContainer from "../../../Components/FlexBoxes/AfyaContainer";
-import Issues from "./Issues";
+import Issues from "./Issues/Issues";
 import Monitoring from "./Monitoring";
+import MainChart from "./Charts/Main";
+import TableData from "./Table/Table";
 
 const Main = ()=>{
 
@@ -10,6 +12,8 @@ const Main = ()=>{
         <AfyaContainer divClass="main-sec">
             <Issues />
             <Monitoring />
+            <MainChart />
+            <TableData />
         </AfyaContainer>
     )
 }

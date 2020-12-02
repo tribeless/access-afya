@@ -1,0 +1,67 @@
+.table {
+    width: 50vw;
+    background-color: #ffffff;
+    margin-top: 20px;
+    font-size: .7rem;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+.table-header{
+    border-bottom: 1pt solid #dfe6e9;
+}
+.table-number{
+    padding-left:1rem;
+}
+.table-data {
+    margin-bottom: .5rem;
+    position:relative;
+    left:18px;
+}
+.theader {
+    padding: 1rem;
+}
+.rate {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.issues {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    left:50px;
+}
+.table-progress {
+    width: 70px;
+    position:relative;
+    top:7px;
+    left:10px;
+}
+.table-holder {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    position: relative;
+    left:60px;
+    padding:1rem;
+}
+.text-main{
+     color:#3426a4
+}
+.text-dull{
+    color:#9ca2a5;
+    margin-left:5px;
+}
+.up{
+    color:#1bb41b
+}
+.down{
+    color:#ad2626;
+}
+
