@@ -65,6 +65,7 @@ body {
     position:relative;
     width:90vw;
     left:7.25vw;
+    flex:1 1 0;
     background-color:#ffffff;
 }
 
@@ -157,6 +158,13 @@ body {
     background-color:#ffffff;
     width:auto;
 }
+.toggle-open{
+    display: none;
+}
+.toggle-close{
+    display:none;
+}
+/* media queries for aside*/
 
 /* END OF ASIDE SECTION */
 
@@ -412,4 +420,81 @@ body {
     position:relative;
     left:550px;
     top:102px;
+}
+/* 
+All media queries */
+
+@media only screen and (max-width:1224px){
+
+    /* lets start with header */
+    .main-container-one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 1rem;
+        position: relative;
+        width: 100vw;
+        /* left: 7.25vw; */
+        flex: 1 1 0;
+        background-color: #ffffff;
+    }
+    .small-container-three {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        outline: none;
+        padding: .5rem;
+        background-color: #ffffff;
+        width: auto;
+
+    }
+
+
+    /* aside section */
+    .toggle{
+        font-size:1rem;
+    }
+    .toggle-open{
+        font-size:1rem;
+        display:block;
+    }
+    .toggle-close{
+        display: block;
+    }
+    .aside-main-container-one {
+
+        width: 10px;
+    }
+    .aside-small-container {
+        padding: .2rem;
+        width: 10px;
+    }
+
+    /* heading sec */
+    .heading-section {
+        left: 18vw;
+        top: 200px;
+    }
+    .heading-sub {
+        font-size: 1.9rem;
+        color: #000000;
+    }
+
+    /* locations */
+    .local-main-sect-one {
+        align-items: flex-start;
+        justify-content: space-between;
+        flex:1 1 0;
+        flex-wrap:wrap;
+        position: absolute;
+        flex-direction: row;
+        left: 18vw;
+        width: auto;
+        top: 300px;
+        min-height: auto;
+    }
+
+    /* main section */
 }

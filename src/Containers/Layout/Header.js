@@ -10,6 +10,7 @@ import "../../Components/Styles/AfyaStyles.css";
 const Header = ()=>{
 
     return (
+       
         <AfyaContainer divClass="main-container-one">
 
             <AfyaSmallContainer divClass="small-container-one">
@@ -54,6 +55,7 @@ const Header = ()=>{
 
         </AfyaSmallContainer>
         </AfyaContainer>
+        
     )
 }
 
