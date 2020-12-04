@@ -1,14 +1,33 @@
 import React from "react";
 import {MdAdd} from "react-icons/md";
+import { RiLogoutBoxRLine } from "react-icons/ri";
+import {useMutation} from "@apollo/react-hooks";
+import {useHistory} from "react-router-dom";
 import { Progress } from 'antd';
 import AfyaContainer from "../../Components/FlexBoxes/AfyaContainer";
 import AfyaSmallContainer from "../../Components/FlexBoxes/AfyaSmallContainer";
 import AfyaTextHolder from "../../Components/TextBoxes/AfyaTextHolder";
 import mamai from "../../Assets/Images/mamai.jpg";
+import {SIGN_OUT} from "../../GraphQl/Mutations/Sessions";
+import Greeting from "../../Utils/Greeting";
+import deleteCookie from "../../Utils/deleteCookie";
 import "../../Components/Styles/AfyaStyles.css";
 
-const Header = ()=>{
+const Header = ({firstname,lastname,email})=>{
+    const [LogoutMutation] = useMutation(SIGN_OUT);
+    const history = useHistory();
 
+    const logout = ()=>{
+        LogoutMutation({})
+                .then((res)=>{
+                    if(res){
+                        deleteCookie("signedin");
+                        history.push("/sign-in");
+                    }
+                    
+                })
+                .catch((err)=>console.log(err));
+    }
     return (
        
         <AfyaContainer divClass="main-container-one">
@@ -21,6 +40,7 @@ const Header = ()=>{
 
                 <MdAdd />
             </AfyaSmallContainer>
+            <Greeting  name={firstname}/>
         <AfyaSmallContainer divClass="small-container-three">
             <AfyaSmallContainer divClass="small-container-two">
                 <Progress 
@@ -43,16 +63,19 @@ const Header = ()=>{
                 divClass="small-container-four"
             >
                  <AfyaTextHolder 
-                    text="Sandra Mamai"
+                    text={firstname + " " + lastname}
                     divClass="main-text-one"
                 />
                  <AfyaTextHolder 
-                    text="smamai@accessafya.com"
+                    text={email}
                     divClass="main-text-two"
                 />
             </AfyaSmallContainer>
                 <img src={mamai} alt="mamai" className="profileImage" />
-
+                <RiLogoutBoxRLine style={{fontSize:"1.2rem",margin:".4rem"}}  
+                    onClick={()=>logout()} 
+                />
+                
         </AfyaSmallContainer>
         </AfyaContainer>
         
