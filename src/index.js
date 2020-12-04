@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 const httpLink = createHttpLink({
-  uri: "https://access-afya.herokuapp.com/",
+  uri: "https://access-afya.herokuapp.com",
   credentials:"include"
 });
 
