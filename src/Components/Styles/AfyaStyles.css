@@ -28,7 +28,11 @@ body {
     height:50px;
     border-radius:100%;
 }
-
+    .sign-out {
+        font-size: 1.2rem;
+        margin:.4rem;
+    }
+    
 .progressBar{
     width:170px;
     border-radius: 20px;
@@ -426,12 +430,21 @@ All media queries */
 
 @media only screen and (max-width:1224px){
 
+    .sign-out{
+        left:60px;
+        top:40px;
+        position:relative;
+        font-size:1.2rem;
+    }
+    .greeting{
+        position:absolute;
+        top:150px;
+    }
     .progressBar{
         width:100px;
     }
     .profileImage {
         position:relative;
-        left:40px;
     }
     /* lets start with header */
     .main-container-one {
@@ -484,7 +497,7 @@ All media queries */
     /* heading sec */
     .heading-section {
         left: 18vw;
-        top: 200px;
+        top: 250px;
         padding:0;
         margin:0;
     }

@@ -40,7 +40,7 @@ const Header = ({firstname,lastname,email})=>{
 
                 <MdAdd />
             </AfyaSmallContainer>
-            <Greeting  name={firstname}/>
+            <Greeting divClass="greeting" name={firstname}/>
         <AfyaSmallContainer divClass="small-container-three">
             <AfyaSmallContainer divClass="small-container-two">
                 <Progress 
@@ -72,7 +72,7 @@ const Header = ({firstname,lastname,email})=>{
                 />
             </AfyaSmallContainer>
                 <img src={mamai} alt="mamai" className="profileImage" />
-                <RiLogoutBoxRLine style={{fontSize:"1.2rem",margin:".4rem"}}  
+                <RiLogoutBoxRLine className="sign-out"  
                     onClick={()=>logout()} 
                 />
                 

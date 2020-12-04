@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 const httpLink = createHttpLink({
-  uri: "https://access-afya.herokuapp.com/graphql",
+  uri: "http://localhost:4003/graphql",
   credentials:"include"
 });
 
