@@ -65,4 +65,8 @@
     color:#ad2626;
 }
 
-
+@media only screen and (max-width:1224px) {
+    .issues{
+        left:30px;
+    }
+    }
