@@ -7,7 +7,7 @@ import AfyaBtn from "../../Components/AfyaButton/AfyaBtn";
 const NotFound = () =>{
     return (
         <AfyaContainer>
-            <AfyaTextHolder text="Uooh,the page you are looking for is not available. Please contact us if the problem persists." />
+            <AfyaTextHolder text="Uooh,what a mess. Please contact us if the problem persists." />
             <Link to="/">
                 <AfyaBtn nwidth="130px" htmlType="button" type="button" text="Go to Dashboard"/>
             </Link>

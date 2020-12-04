@@ -113,7 +113,7 @@ const SignUp = () =>{
         <AfyaSmallContainer >
                 <AfyaTextHolder  text="Already have an account? "/>
                 <Link to="/sign-in">
-                <AfyaTextHolder text=" Sign in? "/>
+                <AfyaTextHolder text=" Sign in "/>
                 </Link>
         </AfyaSmallContainer>
     </AfyaContainer>

@@ -94,7 +94,7 @@ const SignInPage = ()=>{
                 <AfyaSmallContainer >
                         <AfyaTextHolder text="Don't have an account? "/>
                         <Link to="/sign-up">
-                        <AfyaTextHolder text=" Sign up? "/>
+                        <AfyaTextHolder text=" Sign up "/>
                             </Link>
                     </AfyaSmallContainer>
             </AfyaContainer>
