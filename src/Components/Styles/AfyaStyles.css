@@ -426,6 +426,13 @@ All media queries */
 
 @media only screen and (max-width:1224px){
 
+    .progressBar{
+        width:100px;
+    }
+    .profileImage {
+        position:relative;
+        left:40px;
+    }
     /* lets start with header */
     .main-container-one {
         display: flex;
@@ -435,9 +442,10 @@ All media queries */
         padding: 1rem;
         position: relative;
         width: 100vw;
-        /* left: 7.25vw; */
+        left:0;
         flex: 1 1 0;
         background-color: #ffffff;
+        z-index:1000;
     }
     .small-container-three {
         display: flex;
@@ -448,9 +456,7 @@ All media queries */
         padding: .5rem;
         background-color: #ffffff;
         width: auto;
-
     }
-
 
     /* aside section */
     .toggle{
@@ -464,18 +470,23 @@ All media queries */
         display: block;
     }
     .aside-main-container-one {
-
+        top:30vw;
         width: 10px;
+        z-index:0;
+        height:100%;
+        top:0;
     }
     .aside-small-container {
         padding: .2rem;
-        width: 10px;
+        width: 8px;
     }
 
     /* heading sec */
     .heading-section {
         left: 18vw;
         top: 200px;
+        padding:0;
+        margin:0;
     }
     .heading-sub {
         font-size: 1.9rem;
@@ -484,17 +495,54 @@ All media queries */
 
     /* locations */
     .local-main-sect-one {
-        align-items: flex-start;
         justify-content: space-between;
         flex:1 1 0;
         flex-wrap:wrap;
-        position: absolute;
         flex-direction: row;
         left: 18vw;
         width: auto;
         top: 300px;
         min-height: auto;
+        font-size:.7rem;
+    }
+
+    .local-sub-one {
+        width: 110px;
+        position: relative;
+        padding:0;
+    }
+
+    .local-sub-one.active {
+        top:20px;
+        left:-70px;
     }
 
     /* main section */
+    .main-sec {
+        left: 18vw;
+        top: 470px;
+        width:auto;
+    }
+
+    /* mon */
+    .main-mon-container {
+        margin-top: 20px;
+        width:auto;
+    }
+
+    .mon-sub-container {
+        flex-wrap:wrap;
+        flex:1 1 0;
+        flex-direction:column;
+    }
+    .mon-sub-one {
+        margin-bottom: 20px;
+    }
+
+    /* issues */
+    .issues-main-container {
+        width:70vw;
+        align-items:stretch;
+    }
+
 }

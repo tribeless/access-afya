@@ -75,3 +75,21 @@
     justify-content: center;
     margin-top: .6rem;
 }
+
+@media only screen and (max-width:1224px) {
+    .main-container {
+        justify-content: space-between;
+        align-items:flex-start ;
+        flex-wrap:wrap;
+        flex:1 1 0;
+        flex-direction:column;
+
+    }
+
+    .sub-main{
+        margin-bottom:20px;
+        margin-right: 0;
+    }
+
+
+}
