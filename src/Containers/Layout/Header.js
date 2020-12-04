@@ -21,8 +21,8 @@ const Header = ({firstname,lastname,email})=>{
         LogoutMutation({})
                 .then((res)=>{
                     if(res){
-                        history.push("/sign-in");
                         deleteCookie("signedin");
+                        history.push("/sign-in");
                     }
                     
                 })
