@@ -1,0 +1,66 @@
+
+    .main-signup{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex:1 1 0;
+        position:relative;
+        top:16vh;
+        flex-direction:column;
+
+    }
+    .sign-up{
+        display:flex;
+        flex-direction:column;
+        flex:1 1 0;
+        align-items:center;
+        justify-content: space-around;
+        padding:1rem;
+        background-color: #cfc1c3;
+        border-radius: 10px;
+        width:auto;
+    }
+    .name_inputs {
+        background-color:#F1EFED ;
+        width:108px ;
+        height: 36px  ;
+        border-radius: 10px  ;
+        border: none  ;
+        outline-style: none  ;
+        margin: 0 0 2rem 0 ;
+    }
+
+    .errors{
+        background-color: #F1EFED ;
+        width:108px  ;
+        height: 36px  ;
+        border-radius: 10px  ;
+        border-color: red  ;
+        outline-style: none  ;
+        margin: 0 0 2rem 0 ;
+    }
+
+    .text_errors {
+        background-color: #F1EFED  ;
+        width: 258px  ;
+        height: 36px  ;
+        border-radius: 10px  ;
+        border-color: red  ;
+        outline-style: none  ;
+        margin: 0 0 2rem 0 ;
+    }
+    .text_inputs {
+        background-color: #F1EFED  ;
+        width: 258px  ;
+        height: 36px  ;
+        border-radius: 10px  ;
+        border: none  ;
+        outline-style:  none  ;
+        margin: 0 1rem 2rem 0 ;
+    }
+    .form_styles {
+        margin-top: 2rem ;
+    }
+    .signin_form_styles {
+        margin-top:  2.5rem ;
+    }
