@@ -1,17 +1,17 @@
 import React from "react";
 import AfyaTextHolder from "../Components/TextBoxes/AfyaTextHolder";
 
-const Greeting = ({name})=>{
+const Greeting = ({name,divClass})=>{
     const date = new Date();
 
      const hours = date.getHours();
 
      if (hours > 11 && hours < 17) {
-         return <AfyaTextHolder size="17px" text={"Good Afternoon " + name} top="0"/>;
+         return <AfyaTextHolder divClass={divClass} text={"Good Afternoon " + name} />;
      } else if (hours > 16 ) {
-         return <AfyaTextHolder size="17px" text={"Good Evening " + name} top="0"/>;
+         return <AfyaTextHolder divClass={divClass} text={"Good Evening " + name} />;
      } else {
-         return <AfyaTextHolder size="17px" text={"Good Morning " + name} top="0"/>;
+         return <AfyaTextHolder divClass={divClass}  text={"Good Morning " + name} />;
      }
 }
 

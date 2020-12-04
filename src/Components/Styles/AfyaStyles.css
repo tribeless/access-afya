@@ -28,7 +28,11 @@ body {
     height:50px;
     border-radius:100%;
 }
-
+    .sign-out {
+        font-size: 1.2rem;
+        margin:.4rem;
+    }
+    
 .progressBar{
     width:170px;
     border-radius: 20px;
@@ -65,6 +69,7 @@ body {
     position:relative;
     width:90vw;
     left:7.25vw;
+    flex:1 1 0;
     background-color:#ffffff;
 }
 
@@ -157,6 +162,13 @@ body {
     background-color:#ffffff;
     width:auto;
 }
+.toggle-open{
+    display: none;
+}
+.toggle-close{
+    display:none;
+}
+/* media queries for aside*/
 
 /* END OF ASIDE SECTION */
 
@@ -412,4 +424,138 @@ body {
     position:relative;
     left:550px;
     top:102px;
+}
+/* 
+All media queries */
+
+@media only screen and (max-width:1224px){
+
+    .sign-out{
+        left:60px;
+        top:40px;
+        position:relative;
+        font-size:1.2rem;
+    }
+    .greeting{
+        position:absolute;
+        top:150px;
+    }
+    .progressBar{
+        width:100px;
+    }
+    .profileImage {
+        position:relative;
+    }
+    /* lets start with header */
+    .main-container-one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 1rem;
+        position: relative;
+        width: 100vw;
+        left:0;
+        flex: 1 1 0;
+        background-color: #ffffff;
+        z-index:1000;
+    }
+    .small-container-three {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        outline: none;
+        padding: .5rem;
+        background-color: #ffffff;
+        width: auto;
+    }
+
+    /* aside section */
+    .toggle{
+        font-size:1rem;
+    }
+    .toggle-open{
+        font-size:1rem;
+        display:block;
+    }
+    .toggle-close{
+        display: block;
+    }
+    .aside-main-container-one {
+        top:30vw;
+        width: 10px;
+        z-index:0;
+        height:100%;
+        top:0;
+    }
+    .aside-small-container {
+        padding: .2rem;
+        width: 8px;
+    }
+
+    /* heading sec */
+    .heading-section {
+        left: 18vw;
+        top: 250px;
+        padding:0;
+        margin:0;
+    }
+    .heading-sub {
+        font-size: 1.9rem;
+        color: #000000;
+    }
+
+    /* locations */
+    .local-main-sect-one {
+        justify-content: space-between;
+        flex:1 1 0;
+        flex-wrap:wrap;
+        flex-direction: row;
+        left: 18vw;
+        width: auto;
+        top: 300px;
+        min-height: auto;
+        font-size:.7rem;
+    }
+
+    .local-sub-one {
+        width: 110px;
+        position: relative;
+        padding:0;
+    }
+
+    .local-sub-one.active {
+        top:20px;
+        left:-70px;
+    }
+
+    /* main section */
+    .main-sec {
+        left: 18vw;
+        top: 470px;
+        width:auto;
+    }
+
+    /* mon */
+    .main-mon-container {
+        margin-top: 20px;
+        width:auto;
+    }
+
+    .mon-sub-container {
+        flex-wrap:wrap;
+        flex:1 1 0;
+        flex-direction:column;
+    }
+    .mon-sub-one {
+        margin-bottom: 20px;
+    }
+
+    /* issues */
+    .issues-main-container {
+        width:70vw;
+        align-items:stretch;
+    }
+
 }
